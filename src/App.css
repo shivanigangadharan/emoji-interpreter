@@ -1,22 +1,41 @@
-.App {
+.container{
   text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 2%;
+  font-size: 120%;
 }
 
-.App-logo {
-  height: 40vmin;
+h1{
+  color: rgb(1, 71, 71);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.inputText{
+  padding: 1%;
+  width: 80vw;
+  font-size: 120%;
+  color: teal;
+  border: 4px solid teal;
+  border-radius: 8px;
+  font-style: italic;
+  outline: none;
+}
+.btn-search{
+background: teal;
+color: white;
+padding: 1%;
+border-radius: 8px;
+border: 4px solid teal;
+font-size: 120%;
+margin: 2%;
+cursor: pointer;
+}
+
+.emojiList{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ justify-content: center;
 }
-
-.App-link {
-  color: #09d3ac;
+.emo{
+margin: 20px;
+font-size: 150%;
+cursor: pointer;
 }
