@@ -52,7 +52,7 @@ function App() {
   }
   return (
     <div className="container">
-      <h1> Emoji interpreter </h1>
+      <h1> Emoji interpreter 🚀 </h1>
 
       <form>
         <input onChange={(e) => { handleInput(e.target.value) }} className="inputText" placeholder="Enter an emoji here to know its meaning." type="text" />
