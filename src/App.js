@@ -13,6 +13,15 @@ function App() {
     "😉": "wink",
     "😎": "cool",
     "😠": "angry",
+    "😖": "cranky",
+    "😏": "smirk",
+    "😂": "tears of laughter",
+    "😅": "awkward sweat",
+    "😍": "lovely",
+    "😒": "pissed",
+    "😘": "kiss with heart",
+    "😛": "tongue",
+    "😜": "wink and tongue",
     "⚽": "football",
     "✨": "sparkle",
     "👍": "thumbs up",
@@ -21,7 +30,8 @@ function App() {
     "👻": "ghost",
     "👼": "angel",
     "💀": "skull",
-
+    "🎹": "piano",
+    "🐣": "hatching chick"
   };
 
   var myEmojis = Object.keys(emojis);
